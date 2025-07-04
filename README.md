@@ -14,9 +14,9 @@ Then apply to execute *=COUNTBLANK(B:B)* in a cell outside the data set. Since t
 Apply Filter to the dataset to filter out *Blanks* on the Gender Column. Once the Blanks are Filtered out, Type N/A on the 1st blank cell. Then use auto fill to fill all the blanks
 With that we just fulfilled this 1st requirement.Save your file and close it. Its ready for Power BI transformation.
 
-#### Go ahead and launch your Power BI
+#### Going ahead to launch Power BI
 
-On your Home page, click *Get Data* because your emp-data is in csv format. So choose your csv option
+On the Home page, click *Get Data* because your emp-data is in csv format. So choose your csv option
 Then go ahead and click *Transform Data* as appropriate
 
 Lets fulfill this requirement - Some employees are without a salary because they are no longer with the company. All of those employees were taken out.
@@ -29,12 +29,14 @@ Please note that the file format is Excel. So click *Close & Apply* again for th
 Hold your *Ctrl* down to select *All The Columns* EXCEPT Department. While you still have those columns selected, click on *Unpivot Columns*
 NEXT, we need to create a unique relationship between the 2 tables that is beyond Department... this is done By creating a *Custom Column*
 You can call it *Dept_Rating*
-
+This is what we have to concatenate - *[Department]&"/"&[Attribute]*. click ok. Then close and apply.
+Doing the same for - Palmora Group Emp_Data
 This is what you have there *[Department]&"/"&[Rating]* Then click Ok
 Create *Custom Column* for Palmoria Group Emp_Data. So now that you also have same with the emp_data, we will proceed to Merge the 2 datasets.
 Using *Merge Queries as New*
 
 - *Dept_Rating* is the relationship that exist between the 2 datasets. Then click Ok
+
 Select only the *Value* once you click the filter on the Bonus mapping column. After that, then OK. Once you do that, the column name is changed to *Bonus Rate*
 However, The Column Quality is not 100% because of some cells. These are actually those staff that are not rated. Which means they are not entitled to bonus. They are the ones representing *Null* here. 
 
@@ -50,6 +52,7 @@ So to monitor if the coy meets industry regulation minimum of *90,000*, I decide
 Then Close & Apply
 Finally the “Merged” was renamed because this Dataset is where the visuals will be done.
 After that, click Home to Save your Project
+
 ### Tools Used:
 - Microsoft Power BI   [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494&msockid=0bb0c76f3ee562ab2697d3583ff7637f)
 - Data Transformation

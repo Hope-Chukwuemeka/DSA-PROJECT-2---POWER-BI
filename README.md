@@ -60,4 +60,10 @@ After that, click Home to Save your Project
 - For visualization
 - Data Modelling
 
+![20250704_233117](https://github.com/user-attachments/assets/be7e31a7-d4c9-4204-896b-2840e6ff0100)
+![20250704_233536](https://github.com/user-attachments/assets/61d2081c-5e7b-426c-babf-4bd15f3a8a08)
+
+![20250704_233420](https://github.com/user-attachments/assets/c8b9c0e0-a453-4597-b2db-8d5d18ebc3e5)
+
+
 #### THe visualization is done and also attached here.

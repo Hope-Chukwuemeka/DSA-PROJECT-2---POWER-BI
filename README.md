@@ -1,9 +1,9 @@
-## DSA-PROJECT-2---POWER-BI
+### DSA-PROJECT-2---POWER-BI
 This project is based on salvaging the Palmora Group from gender-related issues tailored to - gender distribution, ratings based on gender, gender pay gap on salaries and lots more...
 
 CASE STUDY 3: Palmora Group HR Analysis   -     POWER BI
 
-## STEPS IN POWER BI TABLE
+#### STEPS IN POWER BI TABLE
 
 2 files were shared for this purpose
 First is to confirm the dataset to be sure all what are stated in the requirements are truly what they are.
@@ -50,12 +50,11 @@ So to monitor if the coy meets industry regulation minimum of *90,000*, I decide
 Then Close & Apply
 Finally the “Merged” was renamed because this Dataset is where the visuals will be done.
 After that, click Home to Save your Project
-
-### Tools Used   [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494&msockid=0bb0c76f3ee562ab2697d3583ff7637f)
-Microsoft Power BI
+### Tools Used:
+- Microsoft Power BI   [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494&msockid=0bb0c76f3ee562ab2697d3583ff7637f)
 - Data Transformation
 - Report Presentation
 - For visualization
 - Data Modelling
 
-# THe visualization is done and also attached here.
+#### THe visualization is done and also attached here.
